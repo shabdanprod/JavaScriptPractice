@@ -11,13 +11,13 @@ function showFirstMessage(text) {
 showFirstMessage("Hello World");
 console.log(num);
 
-function calc(a, b) {
-    return (a + b);
-}
+// function calc(a, b) {
+//     return (a + b);
+// }
 
-console.log(calc(4, 3));
-console.log(calc(5, 6));
-console.log(calc(10, 6));
+// console.log(calc(4, 3));
+// console.log(calc(5, 6));
+// console.log(calc(10, 6));
 
 function ret() {
     let num = 50;
@@ -36,3 +36,8 @@ const logger = function() {
 };
 
 logger();
+
+const calc = (a, b) => {
+    console.log('1');
+    return a + b;
+}
