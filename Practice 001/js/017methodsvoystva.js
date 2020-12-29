@@ -15,3 +15,4 @@ console.log(fruit.indexOf("Fruit"));
 const logg = "Hello World";
 
 console.log(logg.slice(6, 11));   
+// console.log(logg.slice(-5, -1));   
