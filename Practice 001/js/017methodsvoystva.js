@@ -11,3 +11,7 @@ console.log(str);
 let fruit = "Some Fruit";
 
 console.log(fruit.indexOf("Fruit"));
+
+const logg = "Hello World";
+
+console.log(logg.slice(6, 11));   
