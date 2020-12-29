@@ -80,14 +80,20 @@ function rememberMyFilms() {
 
 rememberMyFilms();
 
-if (personalMovieDB.Count < 10) {
-    console.log("довольно мало фильмов");
-} else if (personalMovieDB.Count >= 10 && personalMovieDB.Count <30) {
-    console.log("Вы класический зритель!");
-} else if (personalMovieDB.Count >= 30) {
-    console.log("вы киноман");
-} else {
-    console.log("Произошла ошибка")
+
+
+function detectPersonalLevel() {
+    if (personalMovieDB.Count < 10) {
+        console.log("довольно мало фильмов");
+    } else if (personalMovieDB.Count >= 10 && personalMovieDB.Count <30) {
+        console.log("Вы класический зритель!");
+    } else if (personalMovieDB.Count >= 30) {
+        console.log("вы киноман");
+    } else {
+        console.log("Произошла ошибка")
+    }
 }
+
+detectPersonalLevel();
 
 console.log(personalMovieDB);
